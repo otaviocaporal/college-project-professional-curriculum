@@ -1,0 +1,123 @@
+body {
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.h1title {
+    display: inline-block;
+    justify-content: center;
+    background-color: rgb(192, 135, 56);
+    padding: 8px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.cliqueaqui {
+    color: black;
+    cursor: pointer;           /* Muda o cursor ao passar por cima */
+    border-radius: 15px;
+    background-color: rgb(23, 84, 155);
+    color: white;
+    border: 2px solid white;
+    transition: background-color 0.3s ease; /* Transição suave */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+.cliqueaqui:hover {
+    background-color: #172eb1; /* Cor ao passar o mouse */
+  }
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    border-radius: 15px;
+    gap: 0px;
+    flex-wrap: wrap; /* Ajuda em telas menores */
+    width: 1000px;
+    height: 300px;
+}
+
+.img1 {
+    width: 10%;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.nomedata, .contatos1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 350px;
+}
+
+.nomecompleto {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.datanascimento {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.contatos {
+    margin-left: 15px;
+    background-color: rgb(192, 135, 56);
+    display: inline;
+    padding: 4px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.ctts {
+    font-weight: bold;
+}
+
+.nomedata {
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.divtopicos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    margin-top: 15px;
+    border-radius: 15px;
+    width: 1000px;
+    height: 600px;
+}
+
+.topicos {
+    background-color: rgb(192, 135, 56);
+    display: inline;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.icones {
+    width: 5%;
+    margin-top: 10px;
+}
