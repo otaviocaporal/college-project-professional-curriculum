@@ -1,4 +1,5 @@
-# college-project-professional-curriculum
+# College Project - Professional Curriculum 
+
 # Project developed in HTML and CSS as part of my college studies.
 # The main objective was to style it appropriately and include basic HTML semantics, as well as links to contacts.
 # Obs: The project was made only in PT-BR.
